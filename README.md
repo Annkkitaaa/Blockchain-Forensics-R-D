@@ -133,7 +133,7 @@ Create `alert_config.json` with notification channels:
 }
 ```
 
-## 📦 Core Components
+## Core Components
 
 ### 1. AttackerTransactionTotals.py
 **Purpose**: Analyzes financial flows to suspicious addresses
@@ -217,7 +217,7 @@ Create `alert_config.json` with notification channels:
 
 **Use Case**: Professional incident response and comprehensive investigations
 
-## 🚀 Pipeline Architecture
+##  Pipeline Architecture
 
 ### Main Pipeline Orchestrator
 The **main_forensics_pipeline.py** serves as the central command center:
@@ -268,7 +268,7 @@ forensics_output/
     └── api_requests.log                 # External API interaction logs
 ```
 
-## 🔍 Usage Examples
+##  Usage Examples
 
 ### Main Pipeline (Recommended)
 
