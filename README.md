@@ -2,7 +2,7 @@
 
 A comprehensive Python-based toolkit for blockchain forensics, incident response, and real-time threat detection. This project demonstrates advanced capabilities in analyzing blockchain transactions, detecting suspicious patterns, and providing automated incident response for Ethereum and other EVM-compatible networks.
 
-## 🚀 Key Features
+##  Key Features
 
 ### Core Analysis Components
 - **Transaction Pattern Analysis**: Advanced detection of MEV attacks, sandwich attacks, and bot activities
