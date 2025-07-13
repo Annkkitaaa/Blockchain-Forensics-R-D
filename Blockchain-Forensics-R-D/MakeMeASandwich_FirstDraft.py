@@ -1,11 +1,3 @@
-## First Draft Version of MakeMeASandwhich.py by CC labs / Console Cowboys
-## @ficti0n on twitter
-# From the Console Cowboys Blockchain Forensics Youtube Series (link below)
-#https://www.youtube.com/watch?v=LI4PrsqzORE&list=PLCwnLq3tOElrUdIg4LgdhPhCKAiy7NZYA
-## Uses the web3.py API to pull down transactions in the latest block
-## Then finds likily bot activity and then parses out Frontrunning and Sandwich attacks
-
-
 from web3 import Web3
 from colorama import Fore
 
