@@ -652,7 +652,7 @@ python main_forensics_pipeline.py --mode analysis
 - Audit trail maintenance
 - Chain of custody documentation
 
-## 🎓 Educational Use Cases
+##  Educational Use Cases
 
 ### Academic Research
 - Blockchain behavior analysis
@@ -758,18 +758,7 @@ python main_forensics_pipeline.py --mode analysis
 python main_forensics_pipeline.py --mode monitor
 ```
 
-**Monitoring Results**:
-- **Payment Detection**: 23 victim payments ($890K total) identified in real-time
-- **Alert Response**: < 15 seconds from payment to notification
-- **Fund Tracking**: Immediate tracing of consolidation addresses
-- **Attribution**: Connected to known ransomware-as-a-service operation
 
-**Key Capabilities Demonstrated**:
-- Real-time payment detection and alerting
-- Immediate stakeholder notification
-- Live fund flow visualization
-- Automated threat intelligence updates
 
-**Timeline**: 72 hours of continuous monitoring
-**Outcome**: Real-time intelligence for ongoing investigation
+
 
