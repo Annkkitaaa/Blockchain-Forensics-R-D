@@ -28,7 +28,7 @@ A comprehensive Python-based toolkit for blockchain forensics, incident response
 - [API Documentation](#api-documentation)
 - [Case Studies](#case-studies)
 
-## 🛠 Installation
+##  Installation
 
 ### Prerequisites
 ```bash
@@ -57,7 +57,7 @@ export POLYGONSCAN_API_KEY="your_polygonscan_key"
 export ARBISCAN_API_KEY="your_arbiscan_key"
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Pipeline Configuration (pipeline_config.json)
 The main pipeline uses a comprehensive JSON configuration file:
