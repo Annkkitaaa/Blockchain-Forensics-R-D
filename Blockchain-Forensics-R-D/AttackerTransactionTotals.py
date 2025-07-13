@@ -1,7 +1,3 @@
-##From the Console Cowboys Youtube Series
-## Uses the Etherscan API to pull down attackers transaction totals accross attackers addresses
-##@ficti0n on twitter
-
 import requests, os
 from colorama import Fore
 
