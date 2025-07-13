@@ -1,7 +1,3 @@
-##From the Console Cowboys Youtube Series
-## Monitors for address changes on smart contract we were auditing
-##@ficti0n on twitter
-
 import requests, re, time
 from datetime import datetime
 
