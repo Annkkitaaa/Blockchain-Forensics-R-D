@@ -18,7 +18,7 @@ A comprehensive Python-based toolkit for blockchain forensics, incident response
 - **Compliance Reporting**: Generate detailed forensic reports for regulatory purposes
 - **Attribution Analysis**: Tools for linking addresses to real-world entities
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -27,7 +27,6 @@ A comprehensive Python-based toolkit for blockchain forensics, incident response
 - [Advanced Features](#advanced-features)
 - [API Documentation](#api-documentation)
 - [Case Studies](#case-studies)
-- [Contributing](#contributing)
 
 ## 🛠 Installation
 
