@@ -401,7 +401,7 @@ python main_forensics_pipeline.py --mode analysis
 # Check: forensics_output/reports/executive_summary.txt
 ```
 
-## 🎯 Advanced Features
+## Advanced Features
 
 ### Machine Learning Capabilities
 - **Anomaly Detection**: Identifies unusual transaction patterns
@@ -427,7 +427,7 @@ python main_forensics_pipeline.py --mode analysis
 - **Community Detection**: Finds clusters of related addresses
 - **Path Analysis**: Traces fund flows between addresses
 
-## 📊 Output Examples
+## Output Examples
 
 ### Pipeline-Generated Reports
 The main pipeline creates a comprehensive suite of professional reports:
@@ -505,7 +505,7 @@ Next Steps: Review detailed technical reports for investigation specifics
 - **`suspicious_addresses.json`**: Threat intelligence database format
 - **`investigation_timeline.json`**: Chronological analysis for case building
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Alert Rules
 ```python
