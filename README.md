@@ -25,7 +25,6 @@ A comprehensive Python-based toolkit for blockchain forensics, incident response
 - [Core Components](#core-components)
 - [Usage Examples](#usage-examples)
 - [Advanced Features](#advanced-features)
-- [API Documentation](#api-documentation)
 - [Case Studies](#case-studies)
 
 ##  Installation
