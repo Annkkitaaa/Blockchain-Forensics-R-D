@@ -1,0 +1,89 @@
+{
+  "api_keys": {
+    "ethereum": null,
+    "bsc": null,
+    "polygon": null,
+    "arbitrum": null
+  },
+  "analysis_options": {
+    "run_basic_analysis": true,
+    "run_graph_analysis": true,
+    "run_cross_chain_analysis": true,
+    "run_ml_analysis": true,
+    "run_real_time_monitoring": false,
+    "max_addresses": 10,
+    "graph_depth": 2,
+    "ml_retrain": false,
+    "transaction_limit_per_address": 1000,
+    "analysis_time_window_hours": 24,
+    "enable_advanced_patterns": true,
+    "parallel_processing": true,
+    "cache_results": true
+  },
+  "output_options": {
+    "generate_reports": true,
+    "create_visualizations": true,
+    "export_data": true,
+    "output_directory": "forensics_output",
+    "report_formats": ["json", "pdf", "csv"],
+    "include_raw_data": false,
+    "compress_outputs": false
+  },
+  "alert_settings": {
+    "enable_alerts": false,
+    "alert_config_file": "alert_config.json",
+    "severity_threshold": "medium",
+    "alert_cooldown_minutes": 5,
+    "batch_alerts": true,
+    "alert_channels": ["email", "webhook"]
+  },
+  "input_files": {
+    "addresses_file": "attackersOutput.txt",
+    "addresses_csv": "AttackersAddresses.csv",
+    "whitelist_file": "whitelist_addresses.txt",
+    "known_mixers_file": "known_mixers.json",
+    "bridge_addresses_file": "bridge_addresses.json"
+  },
+  "performance_settings": {
+    "max_concurrent_requests": 5,
+    "api_rate_limit_delay": 0.2,
+    "request_timeout_seconds": 30,
+    "retry_attempts": 3,
+    "cache_duration_hours": 6
+  },
+  "ml_settings": {
+    "feature_selection": "auto",
+    "anomaly_threshold": 0.1,
+    "min_cluster_size": 5,
+    "retrain_frequency_days": 7,
+    "model_validation_split": 0.2,
+    "enable_ensemble_methods": true
+  },
+  "graph_analysis_settings": {
+    "max_nodes_visualization": 100,
+    "edge_weight_threshold": 0.1,
+    "community_detection": true,
+    "centrality_measures": ["betweenness", "closeness", "eigenvector"],
+    "path_analysis_depth": 3
+  },
+  "cross_chain_settings": {
+    "supported_networks": ["ethereum", "bsc", "polygon", "arbitrum"],
+    "bridge_detection_threshold": 1,
+    "rapid_transfer_window_minutes": 60,
+    "cross_chain_correlation_threshold": 0.8
+  },
+  "security_settings": {
+    "encrypt_sensitive_data": false,
+    "hash_addresses_in_logs": true,
+    "audit_trail": true,
+    "data_retention_days": 90,
+    "secure_api_key_storage": true
+  },
+  "reporting_settings": {
+    "include_executive_summary": true,
+    "generate_timeline": true,
+    "risk_scoring": true,
+    "compliance_sections": ["aml", "kyc", "sanctions"],
+    "export_formats": ["json", "pdf", "html"]
+  }
+}
