@@ -1,7 +1,4 @@
-##From the Console Cowboys Youtube Series
-## Uses the web3.py API to pull down transactions in the latest block
-## Then finds likily bot activity and prints out possible Frontrunning and Sandwich attacks
-## @ficti0n on twitter
+
 #------------------------------------------------------------------------------------------
 from web3 import Web3
 
