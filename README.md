@@ -534,7 +534,7 @@ async def send_custom_notification(self, alert, config):
     pass
 ```
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Pipeline Scalability
 - **Addresses Monitored**: 1000+ concurrent addresses
@@ -572,7 +572,7 @@ Resource Usage:
 - **Concurrent Address Monitoring**: 1000+ addresses simultaneously
 - **Uptime**: 99.9%+ with proper infrastructure
 
-## 🛡️ Security Considerations
+##  Security Considerations
 
 ### API Key Management
 - Use environment variables for sensitive data
@@ -589,7 +589,7 @@ Resource Usage:
 - Input validation for all data sources
 - Secure storage of configuration files
 
-## 🚨 Incident Response Playbook
+##  Incident Response Playbook
 
 ### Pipeline-Driven Incident Response
 
@@ -672,7 +672,7 @@ python main_forensics_pipeline.py --mode analysis
 - Compliance officer education
 - Law enforcement workshops
 
-## 🔬 Case Study Examples
+##  Case Study Examples
 
 ### Case 1: Multi-Million Dollar DeFi Exploit Detection
 **Scenario**: Real-time detection and analysis of a sophisticated DeFi protocol exploit
@@ -773,95 +773,3 @@ python main_forensics_pipeline.py --mode monitor
 **Timeline**: 72 hours of continuous monitoring
 **Outcome**: Real-time intelligence for ongoing investigation
 
-## 🤝 Contributing
-
-### Development Setup
-1. Fork the repository
-2. Create feature branch
-3. Install development dependencies
-4. Run tests before submitting
-
-### Contribution Guidelines
-- Follow PEP 8 style guidelines
-- Add tests for new features
-- Update documentation
-- Maintain backward compatibility
-
-### Reporting Issues
-- Use GitHub issue templates
-- Provide detailed reproduction steps
-- Include relevant log files
-- Suggest potential solutions
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Ethereum Foundation for blockchain data access
-- Etherscan API for transaction data
-- scikit-learn community for ML algorithms
-- NetworkX for graph analysis capabilities
-
-## 📞 Support
-
-For technical support or questions:
-- GitHub Issues: [Report bugs or request features]
-- Documentation: [Comprehensive guides and API docs]
-- Community: [Join our Discord for discussions]
-
-## 🔮 Future Roadmap
-
-### Short Term (3-6 months)
-- **Enhanced Pipeline Features**:
-  - Advanced ML model ensemble methods
-  - Real-time dashboard web interface
-  - Mobile app for critical alerts
-  - Integration with additional blockchain networks (Solana, Avalanche)
-
-- **Investigation Capabilities**:
-  - Automated OSINT integration
-  - Enhanced attribution analysis
-  - Predictive threat modeling
-  - Advanced visualization tools
-
-### Medium Term (6-12 months)
-- **Enterprise Integration**:
-  - SIEM/SOAR platform connectors
-  - Threat intelligence feed integration
-  - API-first architecture for third-party tools
-  - Enterprise SSO and access controls
-
-- **Advanced Analytics**:
-  - Time-series analysis for behavioral patterns
-  - Social network analysis for criminal organizations
-  - Compliance automation with regulatory reporting
-  - Advanced attribution using clustering techniques
-
-### Long Term (12+ months)
-- **AI-Powered Investigation**:
-  - Natural language investigation assistant
-  - Automated case building and evidence correlation
-  - Predictive threat intelligence
-  - Advanced behavioral analysis using deep learning
-
-- **Platform Evolution**:
-  - Cloud-native deployment options
-  - Global threat intelligence sharing network
-  - Regulatory compliance automation
-  - Integration with legal case management systems
-
-### Pipeline Evolution Roadmap
-```
-Current: main_forensics_pipeline.py (v1.0)
-├── v1.1: Enhanced reporting and visualization
-├── v1.2: Additional blockchain network support  
-├── v2.0: Web-based dashboard and API
-├── v2.1: Enterprise security features
-└── v3.0: AI-powered investigation assistant
-```
-
----
-
-**Disclaimer**: This toolkit is designed for legitimate security research, incident response, and compliance purposes. Users are responsible for ensuring compliance with applicable laws and regulations in their jurisdiction.
